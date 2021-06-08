@@ -1,0 +1,50 @@
+.counter-button-container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.decrement-button {
+    background-color: #FFFFFF;
+    color: #B24242;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    font-size: 21px;
+    border: thin solid #B24242;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.input-box {
+    color: #B24242;
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    border: thin solid #B24242;
+    border-style: solid none;
+    box-sizing: border-box;
+    font-weight: 900;
+    outline-width: 0;
+    background-color: #FBE8E8;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.increment-button {
+    background-color: #B24242;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    border-radius: 0 8px 8px 0;
+    font-size: 21px;
+    border: thin solid #B24242;
+    cursor: pointer;
+    font-weight: 900;
+}
