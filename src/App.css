@@ -38,9 +38,10 @@
 .counter-button-consumer {
   width: 257px;
   height: 130px;
-  display: flex;
+  /* display: flex; */
   background-color: #FFFFFF;
-  padding: 37px 38.5px;
-  justify-content: center;
+  padding: 11px 38.5px;
+  /* justify-content: center; */
   box-sizing: border-box;
+  /* flex-direction: column; */
 }

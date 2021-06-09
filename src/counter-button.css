@@ -1,9 +1,11 @@
 .counter-button-container {
     display: grid;
     place-items: center;
-    height: 100%;
-    width: 100%;
+    height: 56px;
+    width: 180px;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .decrement-button {
@@ -47,4 +49,28 @@ input::-webkit-inner-spin-button {
     border: thin solid #B24242;
     cursor: pointer;
     font-weight: 900;
+}
+
+.updated-counter-display {
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: left;
+}
+
+.value-update-status {
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.loader {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: thin solid black;
+    transform: rotate(45deg);
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    margin-right: 4px;
 }
